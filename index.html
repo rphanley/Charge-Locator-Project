@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+		integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <title>Charge Locator</title>
+</head>
+<body>
+
+        	<nav class="navbar bg-transparent">
+				<div class="navbar-brand">
+                     <img id="logo" class="img-fluid" src="assets/images/ecar.png">Charge Locator
+                     <span class="sr-only">Navbar logo</span></div>
+
+
+                <span id="settings"><i class="fas fa-cog" aria-hidden="true"></i></span>
+                    <span class="sr-only">Settings gear icon</span>
+
+			</nav>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Tesla?</p>
+                <p>Default location?</p>
+            </div>
+
+            </div>
+
+        <div id="map" class="z-depth-1-half map-container">
+         <span class="sr-only">Google map of charge points</span>
+        </div>
+        <p>Find your nearest charge point!</p>
+
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2OU-Yq708pd1edLczghHbDRvjj0GyXno&callback=initMap">
+    </script>
+     <script src="assets/js/maps.js"></script> <!-- Scripts located at the bottom of the body to insure page is fully loaded before execution -->
+
+</body>
+</html>
