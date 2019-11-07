@@ -1,5 +1,5 @@
 #map {
-        height: 50vh;
+        height: 70vh;
         width: 100%;
        }
 
@@ -15,11 +15,12 @@
 #logo {
     width:15%;
     height:15%;
+    vertical-align: top;
      alt: "";
 }
 .navbar {
-    padding: 0.5rem 1.5rem;
-    height:10vh;
+
+    height:11vh;
 }
 
 .navbar-brand {
@@ -47,7 +48,12 @@
         color: #3aafa9;
         font-size:1.5em;
         text-align:right;
-         width:33vw;
+        width:33vw;
+}
+
+#settings i {
+        vertical-align: top;
+
 }
 
 /* The Modal (background) */

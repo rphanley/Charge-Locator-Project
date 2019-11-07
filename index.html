@@ -30,12 +30,18 @@
             <!-- The Modal -->
             <div id="myModal" class="modal">
 
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Tesla?</p>
-                <p>Default location?</p>
-            </div>
+                    <!-- Modal content -->
+                    <div class="modal-content">
+
+                        <p>Tesla?</p>
+                        <p>Default location?</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default close" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save
+                        changes</button>
+                    </div>
 
             </div>
 
@@ -47,8 +53,9 @@
 
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2OU-Yq708pd1edLczghHbDRvjj0GyXno&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2OU-Yq708pd1edLczghHbDRvjj0GyXno&callback=initMap&libraries=places">
     </script>
+
      <script src="assets/js/maps.js"></script> <!-- Scripts located at the bottom of the body to insure page is fully loaded before execution -->
 
 </body>
