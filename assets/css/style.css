@@ -93,6 +93,12 @@
     font-size: 20px;
 }
 
+#settings_text {
+    text-align: left;
+    font-weight: bold;
+    color: red;
+}
+
 .cancel {
   color:red;
   background-color:black;
