@@ -111,6 +111,9 @@ function doSearch(startPos) {
             else //Just report the number of charge points found.
                 updateStatus(resultPlaces.length.toString() + " charge point(s) found.");
 
+            //Clear the settings modal message area
+             $("#settings_text").text("");
+
         }
     }
 
@@ -151,10 +154,10 @@ function createChargepointMarker(place, index) {
     var marker = new google.maps.Marker({
         position: place.geometry.location,
         map: map,
-        label: {
-            text: place.name,
-            color: 'red'
-        },
+        // label: {
+        //     text: place.name,
+        //     color: 'red'
+        // },
         icon: chargepointIcon,
         title: place.name
     });
@@ -364,7 +367,7 @@ settingsButton.onclick = function () {
 // When the user clicks on Save, save settings,close the modal and refresh the search
 saveButton.onclick = function () {
     setStoredSettings();
-    $("#settings_text").css('color', 'black');
+    $("#settings_text").css('color', 'red');
     $("#settings_text").text("Settings saved.");
 
     //If the user has selected to choose a default start location, store it
