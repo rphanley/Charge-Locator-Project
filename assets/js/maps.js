@@ -154,10 +154,6 @@ function createChargepointMarker(place, index) {
     var marker = new google.maps.Marker({
         position: place.geometry.location,
         map: map,
-        // label: {
-        //     text: place.name,
-        //     color: 'red'
-        // },
         icon: chargepointIcon,
         title: place.name
     });

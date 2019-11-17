@@ -8,9 +8,9 @@ body {
        }
 
 /* Reduce the map height for screen width > 1400px in landscape mode (Moto G4), to show status text   */
-@media(min-width: 1400px) {
+@media(min-width: 1070px) {
     #map {
-        height:65vh;
+        height:50vh;
     }
 }
 
@@ -48,17 +48,11 @@ body {
 
 
 
-/* .navbar-text {
-        color: #3aafa9;
-        font-size:1em;
-        text-align:center;
-        width:33vw;
-} */
+
 
 .navbar-light .navbar-nav .nav-link {
     color: #3aafa9;
-    /* MAKE BACKGROUND OF NAVBAR ITEMS TRANSPARENT */
-    /* background-color: transparent; */
+
 }
 
 #settings {
