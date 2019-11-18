@@ -7,10 +7,10 @@ body {
         width: 100%;
        }
 
-/* Reduce the map height for screen width > 1400px in landscape mode (Moto G4), to show status text   */
-@media(min-width: 1070px) {
+/* Reduce the map height for screen height <= 320px in landscape mode (Moto G4 and iPhone5/SE), to show status text   */
+@media(max-height: 320px) {
     #map {
-        height:50vh;
+        height:65vh;
     }
 }
 
