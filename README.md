@@ -140,9 +140,9 @@ The test cases were as follows:
 
 ## Deployment
 
-The project was deployed on GitHub Pages. To do this, I clicked on the "Settings" tab of the charge-locator repository in GitHub. Then I scrolled down to the GitHub Pages section. From the Source drop-down menu I selected "master branch" to deploy the website from the latest master code. GitHub then published the website at: [charge-locator](https://rphanley.github.io/charge-locator/)
+The project was deployed on GitHub Pages. To do this, I clicked on the "Settings" tab of the charge-locator repository in GitHub. Then I scrolled down to the GitHub Pages section. From the Source drop-down menu I selected "master branch" to deploy the website from the latest master code. GitHub then published the website at: [charge-locator](https://rphanley.github.io/Charge-Locator-Project/)
 
-- **Local Install**: The website can be installed locally by clicking the "Clone or download" button at : [charge-locator](https://github.com/rphanley/charge-locator), then clicking on "Download ZIP" to download the folder structure and all files to your device.
+- **Local Install**: The website can be installed locally by clicking the "Clone or download" button at : [charge-locator](https://github.com/rphanley/Charge-Locator-Project), then clicking on "Download ZIP" to download the folder structure and all files to your device.
 
 
 
